@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.dotsbg{
+  background-image: url(./assets/dots.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar{
+  min-width: 500px;
+  width: 50vw; 
+  height: 0;
+  display: flex;
+  align-items: center;
+  border-left: 6vh solid transparent;
+  border-right: 6vh solid transparent;
+  border-top: 8vh solid #27272a;
+}
+
+.navlinks-active{
+  color: white;
+}
